@@ -1,0 +1,55 @@
+
+//2. Write a linear search algorithm to return index of last occurance of key.
+
+package com.domain;
+import java.util.Scanner;
+public class Lastoccurance {
+	
+	public static int lastoccurance(int arr[],int key) {
+		int idx = 0;
+		for(int i = 0 ; i < arr.length ; i++) {
+			if(arr[i] == key) {
+				idx = i;
+			}
+			  return idx;
+			  
+				
+			
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	public static void main(String args[]) {
+		int arr[] = {10,20,30,40,50,60,70,80,30};
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter key to be searched:");
+		int key = sc.nextInt();
+		int index = lastoccurance(arr,key);
+		if(index !=-1)
+		{
+			System.out.println("Last occurance found at index:"+index);
+			
+			
+		}
+		else
+		System.out.println("Key not found");
+		sc.close();
+		
+	}
+}

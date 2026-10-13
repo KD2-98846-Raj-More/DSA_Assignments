@@ -1,0 +1,12 @@
+//Write a linear search algorithm to return index of last occurance of key
+
+package com.domain;
+
+public class Que2 {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
